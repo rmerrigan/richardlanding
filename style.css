@@ -69,7 +69,7 @@ body {
 }
 
 .btn {
-  background: #acc164;
+  background: #5f96bf;
   opacity: 0.55;
   color: #fff;
   font-size: 1.2rem;
@@ -97,21 +97,32 @@ body {
   max-width: 200px;
 }
 
-#alt-box {
+#alt-box-1 {
+  color: #333;
+}
+
+#alt-box-2 {
   background: #333;
   color: #fff;
+}
+
+#alt-box-3 {
+  color: #333;
 }
 
 .w-box i {
   font-size: 2.5rem;
   padding: 5px;
+  text-align: center;
 }
 
 footer {
   color: #acc164;
   overflow: hidden;
   text-align: center;
-  padding-right: 2.5rem;
+  display: flex;
+  justify-content: center;
+  padding-right: 3rem;
 }
 
 footer a {
@@ -126,6 +137,14 @@ footer i {
 nav ul li {
   display: inline;
   padding: 10px;
+}
+
+.nav-box {
+  background: #333;
+  border: 2px #333 solid;
+  border-radius: 15px;
+  padding: 1.5rem;
+  max-width: 600px;
 }
 
 @media (min-width: 960px) {
